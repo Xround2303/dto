@@ -1,0 +1,17 @@
+{
+    "name": "xround2303/dto",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Xround2303\\Dto\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "xround2303",
+            "email": "xround2303@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
