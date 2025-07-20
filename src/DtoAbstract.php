@@ -89,6 +89,9 @@ abstract class DTO
                         if(is_subclass_of($item, self::class)) {
                             $rows[] = $item->toArray();
                         }
+                        else {
+                            $rows[] = $item;
+                        }
                     }
 
                     $result[$key] = $rows;
