@@ -1,6 +1,6 @@
 <?php
 
-namespace App\DTO;
+namespace Xround2303\Dto;
 
 use Illuminate\Support\Str;
 use ReflectionClass;
@@ -8,14 +8,14 @@ use ReflectionException;
 use ReflectionProperty;
 
 
-abstract class DTO
+abstract class DtoAbstract
 {
     /**
      * @param array|object $data
      * @return static
      * @throws ReflectionException
      */
-    public static function fromArray($data): DTO
+    public static function fromArray($data): self
     {
         $dto = new (static::class)();
         $reflectionClass = new ReflectionClass($dto);

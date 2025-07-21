@@ -1,5 +1,6 @@
 {
     "name": "xround2303/dto",
+    "description": "DTO-пакет для laravel",
     "type": "library",
     "autoload": {
         "psr-4": {
@@ -13,5 +14,4 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
 }
